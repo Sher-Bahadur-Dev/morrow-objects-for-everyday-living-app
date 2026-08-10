@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Morrow creates expressive furniture for considered, lived-in homes.">
+  <title>Morrow — Objects for everyday living</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <header class="header" id="header">
+    <div class="topbar">Made in small runs <span>•</span> Free delivery on orders over $900 <span>•</span> New: The Soft Geometry collection</div>
+    <nav class="nav container">
+      <a class="logo" href="#home" aria-label="Morrow home"><i></i><span>MORROW</span></a>
+      <ul class="nav-links"><li><a href="#furniture">Shop</a></li><li><a href="#about">Our approach</a></li><li><a href="#showcase">Homes</a></li><li><a href="#journal">Journal</a></li></ul>
+      <div class="nav-actions"><button class="icon-btn" id="searchBtn" aria-label="Search">Search</button><button class="icon-btn cart-btn" id="cartBtn" aria-label="Shopping bag">Bag <b id="cartCount">0</b></button><a class="button small" href="#contact">Talk to us</a><button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">Menu</button></div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu"><a href="#home">Home</a><a href="#furniture">Shop</a><a href="#about">Our approach</a><a href="#showcase">Homes</a><a href="#journal">Journal</a><a href="#contact">Contact</a></div>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal"><p class="eyebrow">Objects for everyday living</p><h1>Make room<br>for a <em>good life.</em></h1><p class="lead">Thoughtful furniture with a little more personality. Designed to be useful, beautiful and very much at home in your life.</p><div class="hero-buttons"><a class="button" href="#furniture">Explore the collection <span>→</span></a><a class="under-link" href="#about">Why Morrow <span>↗</span></a></div><div class="stats"><div><strong>07</strong><span>signature forms</span></div><div><strong>100%</strong><span>natural materials</span></div><div><strong>02</strong><span>year warranty</span></div></div></div>
+        <div class="hero-image reveal"><div class="hero-shape shape-one"></div><img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1100&q=85" alt="Soft green sofa in a sunlit room"><div class="image-label"><small>01 / 04</small><span>The Nook Sofa</span><b>$2,180</b></div><div class="hero-note">Made for the<br><em>long sit.</em></div></div>
+      </div>
+      <div class="marquee"><div>Slow furniture <i>✳</i> Big comfort <i>✳</i> Made to keep <i>✳</i> Slow furniture <i>✳</i> Big comfort <i>✳</i> Made to keep <i>✳</i></div></div>
+    </section>
+    <section class="section collection" id="furniture"><div class="container"><div class="section-heading"><div><p class="eyebrow">Fresh arrivals</p><h2>Keepers, from<br>day <em>one.</em></h2></div><p>Good design should never feel precious. Meet the relaxed, hard-working pieces made for real rooms.</p></div><div class="filters" id="filters"><button class="active" data-filter="all">Everything</button><button data-filter="seating">Seating</button><button data-filter="tables">Tables</button><button data-filter="storage">Storage</button><button data-filter="lighting">Lighting</button></div>
+      <div class="products">
+        <article class="product feature-product" data-category="seating"><div class="product-media"><span class="number">01</span><button class="wish" aria-label="Save Nook Sofa">♡</button><img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=85" alt="Nook Sofa"><button class="add">Add to bag</button></div><div class="product-info"><h3>Nook Sofa</h3><strong>$2,180</strong><p>Cloud bouclé · oat</p></div></article>
+        <article class="product" data-category="seating"><div class="product-media color-lilac"><span class="number">02</span><button class="wish" aria-label="Save Orb Chair">♡</button><img src="https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=750&q=85" alt="Orb lounge chair"><button class="add">Add to bag</button></div><div class="product-info"><h3>Orb Chair</h3><strong>$860</strong><p>Oak · chalk wool</p></div></article>
+        <article class="product" data-category="tables"><div class="product-media"><span class="number">03</span><button class="wish" aria-label="Save Pebble Table">♡</button><img src="https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=750&q=85" alt="Round wooden table"><button class="add">Add to bag</button></div><div class="product-info"><h3>Pebble Table</h3><strong>$740</strong><p>Solid ash · natural oil</p></div></article>
+        <article class="product" data-category="storage"><div class="product-media color-yellow"><span class="number">04</span><button class="wish" aria-label="Save Fold Cabinet">♡</button><img src="https://images.unsplash.com/photo-1558997519-83ea9252edf8?auto=format&fit=crop&w=750&q=85" alt="Minimal wooden cabinet"><button class="add">Add to bag</button></div><div class="product-info"><h3>Fold Cabinet</h3><strong>$1,280</strong><p>Birch ply · butter</p></div></article>
+        <article class="product" data-category="lighting"><div class="product-media"><span class="number">05</span><button class="wish" aria-label="Save Glow Lamp">♡</button><img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=750&q=85" alt="Warm lamp in a living room"><button class="add">Add to bag</button></div><div class="product-info"><h3>Glow No. 1</h3><strong>$290</strong><p>Paper shade · warm white</p></div></article>
+      </div></div></section>
+    <section class="craft" id="about"><div class="container craft-grid"><div class="craft-image reveal"><img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1000&q=85" alt="Warm and colorful contemporary interior"><div class="stamp">M<br>O<br>R<br>R<br>O<br>W</div></div><div class="craft-copy reveal"><p class="eyebrow">A more human home</p><h2>Less stuff.<br>More <em>feeling.</em></h2><p>We make the pieces that earn their place: honest materials, generous proportions and colors that bring a room to life.</p><div class="pillars"><div><span>01</span><b>Easy to live with</b><p>Materials that welcome a little wear and tell a better story over time.</p></div><div><span>02</span><b>Made in good company</b><p>Built in close partnership with independent workshops.</p></div><div><span>03</span><b>Designed to stay</b><p>Repairable details and enduring shapes, without the serious face.</p></div></div></div></div></section>
+    <section class="showcase section" id="showcase"><div class="container"><div class="section-title-row"><div><p class="eyebrow">Morrow at home</p><h2>Rooms that feel<br>like <em>you.</em></h2></div><a class="text-link" href="#contact">Share your space ↗</a></div><div class="showcase-grid"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1100&q=85" alt="Morrow-inspired living room"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=700&q=85" alt="Colorful contemporary room"><img src="https://images.unsplash.com/photo-1617104678098-de229db51175?auto=format&fit=crop&w=700&q=85" alt="Comfortable home corner"></div></div></section>
+    <section class="journal section" id="journal"><div class="container"><p class="eyebrow">From the good room</p><h2>A few things<br>we're into.</h2><div class="journal-grid"><article><span class="article-no">01</span><h3>The case for a joyful chair</h3><p>What a playful piece can do for the rest of the room.</p><a href="#">Read the note →</a></article><article><span class="article-no">02</span><h3>Our no-fuss guide to wood</h3><p>A little care, a little patience, and the good kind of patina.</p><a href="#">Read the note →</a></article><article><span class="article-no">03</span><h3>Ten minutes with Mia</h3><p>The ceramicist making our new table objects by hand.</p><a href="#">Read the note →</a></article></div></div></section>
+    <section class="contact" id="contact"><div class="container contact-inner"><div><p class="eyebrow">Your room, your rules</p><h2>Let's make<br>it <em>yours.</em></h2><p>Need a second opinion, a swatch, or a nudge in the right direction? We’re here.</p></div><form id="contactForm"><label>Your name<input type="text" placeholder="Say hello" required></label><label>Email address<input type="email" placeholder="you@example.com" required></label><label>How can we help?<textarea placeholder="Tell us about your room" rows="3" required></textarea></label><button class="button" type="submit">Send a note <span>→</span></button><small id="formMessage"></small></form></div></section>
+  </main>
+  <footer class="footer">
+    <div class="footer-wordmark" aria-hidden="true">MORROW</div>
+    <div class="container footer-top">
+      <div class="footer-intro"><a class="logo" href="#home"><i></i><span>MORROW</span></a><p>Furniture for the way you actually live.</p></div>
+      <div class="footer-signup"><p>Room for more good things.</p><form class="signup-form"><label class="sr-only" for="footer-email">Email address</label><input id="footer-email" type="email" placeholder="Your email address"><button type="button" aria-label="Join newsletter">→</button></form><small>Occasional notes, new pieces and no clutter.</small></div>
+    </div>
+    <div class="container footer-grid">
+      <div class="footer-location"><b>Come by</b><span>18 Canal Street<br>New York, NY 10002</span><span>Mon—Sat / 10—6</span></div>
+      <div><b>Explore</b><a href="#furniture">The collection</a><a href="#about">Our approach</a><a href="#journal">The journal</a></div>
+      <div><b>Stay close</b><a href="mailto:hello@morrowhome.com">hello@morrowhome.com</a><a href="tel:+12125550148">+1 212 555 0148</a><a href="#showcase">Instagram ↗</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Morrow Home</span><span class="credit">Design by KneoSS</span><a href="#home">Back to top ↑</a></div>
+  </footer>
+  <script src="js/script.js"></script>
+</body></html>
