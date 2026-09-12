@@ -1,83 +1,54 @@
-# 🪑 Furniture Web Project
+# Furniture Website
 
-A modern, responsive furniture website designed to showcase stylish furniture products with a clean, elegant, and user-friendly interface. The project focuses on professional product presentation, responsive layouts, and a smooth browsing experience.
+## Overview
 
-## ✨ Features
+**Furniture-Website** is a food & restaurant web app built using **HTML and JavaScript and HTML5**.
 
-* 🏠 Modern homepage design
-* 🛋️ Furniture product showcase
-* 🖼️ High-quality product imagery
-* 📱 Fully responsive design
-* 🔍 Clean and intuitive navigation
-* 🛒 Product-focused shopping interface
-* 🎨 Modern typography and visual styling
-* ⚡ Fast and lightweight frontend
-* 💻 Compatible with desktop, tablet, and mobile devices
+## Features
 
-## 🛠️ Technologies Used
+- **Food & Restaurant Discovery**: Detected food, restaurant, menu, or dining terminology in project content.
+- **Commerce & Shopping**: Detected commerce, catalog, cart, or checkout terminology.
 
-* **HTML5** — Website structure
-* **CSS3** — Styling, layouts, animations, and responsiveness
-* **JavaScript** — Interactive functionality
+## Tech Stack
 
-## 📂 Project Structure
+- **Languages**: HTML, JavaScript, HTML5, CSS3
+
+## Project Structure
 
 ```text
-Furniture-Web-Project/
-│
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── images/
-│   ├── products/
-│   ├── banners/
-│   └── icons/
-└── README.md
+README.md            # Project documentation and getting started guide.
 ```
 
-## 🎯 Project Goal
+## Getting Started
 
-The goal of this project is to create a professional furniture shopping interface while demonstrating frontend development skills, responsive web design, modern UI principles, and interactive JavaScript functionality.
+### Prerequisites
 
-## 📸 Preview
+- Node.js (v18.0.0 or higher recommended)
+- npm, yarn, or pnpm package manager
 
-Add screenshots of your website here:
-
-```text
-screenshots/
-├── homepage.png
-├── products.png
-└── mobile-view.png
-```
-
-## 🚀 Getting Started
-
-1. Clone the repository:
+### Installation
 
 ```bash
-git clone https://github.com/USERNAME/FURNITURE-REPOSITORY.git
+# Clone the repository
+git clone https://github.com/Sher-Bahadur-417/Furniture-Website.git
+
+# Navigate into the project folder
+cd Furniture-Website
+
 ```
 
-2. Open the project folder.
+### Running the Project
 
-3. Open `index.html` in your browser.
+```bash
+# Run using your preferred server or runtime
+```
 
-That's it — no additional installation is required.
+## Screenshots
 
-## 🌐 Live Demo
+> *Add screenshots or a GIF demonstration here.*
 
-Add your deployed website link here:
+<!-- ![App Screenshot](path/to/screenshot.png) -->
 
-**Live Demo:** `YOUR-LIVE-DEMO-LINK`
+## License
 
-## 👨‍💻 Developer
-
-**Sher Bahadur**
-
-Frontend Web Developer | HTML • CSS • JavaScript
-
-## 📄 License
-
-This project is created for educational and portfolio purposes.
+This project is open source and available under standard GitHub terms.
