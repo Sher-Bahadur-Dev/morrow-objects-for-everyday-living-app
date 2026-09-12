@@ -1,13 +1,10 @@
-# Furniture Website
+# Morrow — Objects for everyday living
 
 ## Overview
 
-**Furniture-Website** is a food & restaurant web app built using **HTML and JavaScript and HTML5**.
+Morrow — Objects for everyday living is implemented in this repository.
 
-## Features
-
-- **Food & Restaurant Discovery**: Detected food, restaurant, menu, or dining terminology in project content.
-- **Commerce & Shopping**: Detected commerce, catalog, cart, or checkout terminology.
+A food & restaurant web app built with HTML, JavaScript, HTML5, CSS3, featuring food & restaurant discovery and commerce & shopping. Clean architecture and m...
 
 ## Tech Stack
 
@@ -30,7 +27,7 @@ README.md            # Project documentation and getting started guide.
 
 ```bash
 # Clone the repository
-git clone https://github.com/Sher-Bahadur-417/Furniture-Website.git
+git clone https://github.com/Sher-Bahadur-Dev/Furniture-Website.git
 
 # Navigate into the project folder
 cd Furniture-Website
@@ -40,14 +37,8 @@ cd Furniture-Website
 ### Running the Project
 
 ```bash
-# Run using your preferred server or runtime
+# Run using the runtime found in this repository
 ```
-
-## Screenshots
-
-> *Add screenshots or a GIF demonstration here.*
-
-<!-- ![App Screenshot](path/to/screenshot.png) -->
 
 ## License
 
